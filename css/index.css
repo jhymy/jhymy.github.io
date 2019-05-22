@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Brandon Text, sans-serif;
+}
+
+nav {
+    background-color: #ffeb3b;
+    height: 50px;
+    z-index: 1;
+    position: relative;
+}
+
+h1 {
+    color: #4e5056;
+    font-weight: 700;
+    font-size: 2.88889rem;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+nav a {
+    float: right;
+    color: black;
+    text-transform: uppercase;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+
+a {
+    text-decoration: none;
+    text-align: middle;
+}
+
+a:hover {
+    color: #85929e;
+}
+
+.container {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.personal {
+    margin-top: 5%;
+    background-color: #d1f2eb;
+    padding: 5%;
+    border-radius: 20px;
+}
+
+.cont1 {
+    margin-top: 5%;
+    background-color: #fcf3cf;
+    border-radius: 20px;
+    padding: 5%;
+}
+
+.card {
+    margin-top: 5%;
+    background-color: #f7dc6f;
+    border-radius: 20px;
+    padding: 5%;
+}
+
+figure img {
+    margin: auto;
+    display: block;
+}
+
+h2 {
+    color: #5d6d7e;
+    text-align: center;
+}
+
+aside {
+    margin-top: 5%;
+    background-color: #ccd1d1;
+    border-radius: 20px;
+    padding: 5%;
+}
+
+.formulario {
+    border: 2px dashed black;
+    border-radius: 20px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    padding: 2%;
+}
+
+.centro {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boton {
+    padding: 10px;
+    background-color: #5499c7;
+    border: none;
+}
+
+.boton:hover {
+    background-color: #85c1e9;
+}
+
+td {
+    text-align: justify;
+}
