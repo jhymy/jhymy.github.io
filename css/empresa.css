@@ -29,6 +29,10 @@ header nav {
     margin: 10px 0;
 }
 
+article {
+    width: 25%;
+}
+
 article img {
     width: 250px;
     height: 150px;
