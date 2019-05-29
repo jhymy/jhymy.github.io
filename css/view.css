@@ -1,0 +1,183 @@
+body {
+    width: 80%;
+    margin: 0 auto;
+    background-image: url("../images/fond_jaune.png");
+    font-family: 'Roboto', sans-serif;
+}
+
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo a {
+    text-decoration: none;
+    font-family: 'Norican', cursive;
+    color: black;
+    font-size: 40px;
+}
+
+.menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-left: 20px;
+    color: black;
+    font-family: 'PT Serif', serif;
+}
+
+.text {
+    display: block;
+    margin: auto 0;
+}
+
+.imageview {
+    background-image: url("../images/sanfrancisco.jpg");
+    background-size: cover;
+    height: 240px;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.imageview img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.text-image {
+    width: 100%;
+    background-color: rgba(17, 16, 16, 0.7);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 10px;
+    border-radius: 0 0 8px 8px;
+}
+
+.text-image button a {
+    text-decoration: none;
+    color: black;
+}
+
+label {
+    margin-left: 8px;
+}
+
+button {
+    background-color: #e72806;
+    border: none;
+    border-radius: 6px;
+    margin-right: 14px;
+    padding: 8px;
+}
+
+button img {
+    height: 10px;
+    width: 10px !important;
+}
+
+section article h2 {
+    text-transform: uppercase;
+}
+
+section article img {
+    width: 35px;
+    height: 35px;
+}
+
+.alin {
+    display: flex;
+}
+
+.alin h2 {
+    font-family: 'PT Serif', serif;
+}
+
+.contenido {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.articulo {
+    width: 73%;
+    margin-right: 2%;
+}
+
+.flecha {
+    margin-top: 100px;
+}
+
+aside {
+    width: 23%;
+    background-color: #706b64;
+    color: white;
+    border-radius: 8px;
+    padding: 1%;
+}
+
+.image img {
+    display: block;
+    margin: auto;
+    border: solid 1px black;
+}
+
+p {
+    text-align: justify;
+}
+
+.separador {
+    width: 100%;
+    height: 4px;
+}
+
+.topCenter {
+    display: block;
+    margin: -7px auto;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+footer section {
+    width: 30%;
+}
+
+.alin img {
+    margin: auto 0;
+}
+
+.pictures img {
+    height: 70px;
+    width: 70px;
+}
+
+.friend {
+    display: flex;
+}
+
+.friend ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 40%;
+    color: #c74028;
+}
+
+.frind ul li img {
+    height: 10px;
+}
+
+footer section h3 {
+    text-transform: uppercase;
+    font-family: 'PT Serif', serif;
+}
+
+.pictures img {
+    border: solid black 1px;
+}

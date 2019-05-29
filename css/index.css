@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: Brandon Text, sans-serif;
+    font-family: 'Comfortaa', serif;
 }
 
 .fondo {
@@ -31,9 +31,9 @@ p {
 nav a {
     float: right;
     color: black;
-    text-transform: uppercase;
     margin-left: 30px;
     margin-top: 15px;
+    font-weight: 500;
 }
 
 a {
@@ -190,4 +190,8 @@ h3 {
 
 section article header h3 {
     font-size: 1em;
+}
+
+.container section h1 {
+    padding: 26% 0;
 }
