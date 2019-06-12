@@ -45,7 +45,7 @@
         <nav class="menu-fixed orange">
             <div class="nav-wrapper container">
                 
-              <a href="#!" class="brand-logo">
+              <a href="index.html" class="brand-logo">
                 <svg class="shrine-logo" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve" fill="#ffffff" focusable="false">
                   <g>
                     <g>
@@ -61,6 +61,7 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="lugares.html">Cities</a></li>
                 <li><a href="contacto.html">Contact</a></li>
+                <li><a href="view.html">Zozor</a></li>
               </ul>
             </div>
         </nav>
@@ -69,14 +70,16 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="lugares.html">Cities</a></li>
           <li><a href="contacto.html">Contact</a></li>
+          <li><a href="view.html">Zozor</a></li>
         </ul>
     </header>
 
     <div class="social-bar">
-      <a href="https://www.wallpaperup.com/" class="icon icon-youtube"><i class="fab fa-facebook-square" target="_blank"></i></a>
-      <a href="https://www.facebook.com/profile.php?id=100009796845572" class="icon icon-facebook" target="_blank"><i class="fab fa-whatsapp fa-1x"></i></a>
-      <a href="https://github.com/jhymy/jhymy.github.io" class="icon icon-twitter" target="_blank"><i class="fab fa-facebook-square"></i></a>
-      <a href="https://accounts.google.com/ServiceLogin?service=mail&passive=true&rm=false&continue=https://mail.google.com/mail/u/0/&ss=1&scc=1&authuser=0&ltmpl=default&ltmplcache=2&emr=1&osid=1#" class="icon icon-instagram" target="_blank"><i class="fas fa-envelope fa-1x"></i></a>
+      <a href="https://www.youtube.com/" class="icon icon-youtube" target="_blank"><i class="fab fa-youtube"></i></a>
+      <a href="https://www.facebook.com/" class="icon icon-facebook" target="_blank"><i class="fab fa-facebook-square fa-1x"></i></a>
+      <a href="https://twitter.com/?lang=es" class="icon icon-twitter" target="_blank"><i class="fab fa-twitter fa-1x"></i></a>
+      <a href="https://www.instagram.com/?hl=es-la" class="icon icon-instagram"><i class="fab fa-instagram"></i></a>
+      <a href="https://accounts.google.com/ServiceLogin?service=mail&passive=true&rm=false&continue=https://mail.google.com/mail/u/0/&ss=1&scc=1&authuser=0&ltmpl=default&ltmplcache=2&emr=1&osid=1#" class="icon icon-gmail" target="_blank"><i class="fas fa-envelope fa-1x"></i></a>
     </div>
 
     <div class="fixed-action-btn">
@@ -126,7 +129,7 @@
                         </div>
                         <div class="row">
                             <div class="col xl12">
-                                <a class="waves-effect waves-light orange btn"><i class="material-icons right">cloud</i>Enviar</a>
+                                <a class="waves-effect waves-light orange btn"><i class="material-icons right">email</i>Enviar</a>
                             </div>
                         </div>
                     </form>
@@ -176,6 +179,10 @@
             var instances = M.FloatingActionButton.init(elems, {
               direction: 'left'
             });
+        });
+
+        $(document).ready(function(){
+          $('.sidenav').sidenav();
         });
      
     </script>

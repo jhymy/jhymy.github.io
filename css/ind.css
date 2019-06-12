@@ -217,6 +217,9 @@ div.img4 {
 .icon-instagram {
     background-color: pink;
 }
+.icon-gmail {
+    background-color: yellow;
+}
 .icon:first-child {
     border-radius: 1rem 0 0 0;
 }
