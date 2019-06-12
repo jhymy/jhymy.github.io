@@ -13,63 +13,172 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="img/contacto.png">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/ind.css">
+    
+    <link rel="stylesheet" href="css/w3.css"> 
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- Fuentes -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+
     <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p|Montserrat|Nanum+Gothic|Questrial|Quicksand|Ubuntu&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
     <!--[if lt IE 7]>
 			<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
 		<![endif]-->
-    <header class="fondo">
-        <nav class="container">
-            <a href="index.html">Jhymy</a>
-            <a href="contacto.html">contato</a>
-            <a href="lugares.html">lugares turisticos</a>
-            <a href="view.html">Proyecto zozor</a>
-            <a href="empresa.html">Proyeto Empresa</a>
+    <header>
+        <nav class="menu-fixed orange">
+            <div class="nav-wrapper container">
+                
+              <a href="#!" class="brand-logo">
+                <svg class="shrine-logo" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve" fill="#ffffff" focusable="false">
+                  <g>
+                    <g>
+                      <path d="M17,2H7L2,6.62L12,22L22,6.62L17,2z M16.5,3.58l3.16,2.92H16.5V3.58z M7.59,3.5H15v3H4.34L7.59,3.5z
+                         M11.25,18.1L7.94,13h3.31V18.1z M11.25,11.5H6.96L4.69,8h6.56V11.5z M16.5,12.32 M12.75,18.09V8h6.56L12.75,18.09z"/>
+                    </g>
+                    <rect fill="none" width="24" height="24"/>
+                  </g>
+                </svg>
+              </a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+              <ul class="right hide-on-med-and-down">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="lugares.html">Cities</a></li>
+                <li><a href="contacto.html">Contact</a></li>
+              </ul>
+            </div>
         </nav>
+
+        <ul class="sidenav" id="mobile-demo">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="lugares.html">Cities</a></li>
+          <li><a href="contacto.html">Contact</a></li>
+        </ul>
     </header>
-    <section class="formulario">
-        <h1>Formulario</h1>
-        <form class="centro" action="MAILTO:sugerencias@miempresa.com"  method="post"  enctype="text/plain">
-            <img alt="computadora" height="150" src="img/rootkit.png"> <br>
-            <label>Nombre:</label> <br>
-            <input type="text" name="nombre">
-            <br>
-            <label>Correo:</label> <br>
-            <input type="text" name="mail">
-            <br>
-            <label>Contraseña:</label> <br>
-            <input type="password" name="password"> <br>
-            <label>Sugerencia:</label> <br>
-            <textarea rows="4" cols="50"></textarea> <br>
-            <input type="submit" name="" value="enviar" class="boton">
-            <input type="reset" name="borrar" value="borrar Formulario" class="boton">
-        </form>
+
+    <div class="social-bar">
+      <a href="https://www.wallpaperup.com/" class="icon icon-youtube"><i class="fab fa-facebook-square" target="_blank"></i></a>
+      <a href="https://www.facebook.com/profile.php?id=100009796845572" class="icon icon-facebook" target="_blank"><i class="fab fa-whatsapp fa-1x"></i></a>
+      <a href="https://github.com/jhymy/jhymy.github.io" class="icon icon-twitter" target="_blank"><i class="fab fa-facebook-square"></i></a>
+      <a href="https://accounts.google.com/ServiceLogin?service=mail&passive=true&rm=false&continue=https://mail.google.com/mail/u/0/&ss=1&scc=1&authuser=0&ltmpl=default&ltmplcache=2&emr=1&osid=1#" class="icon icon-instagram" target="_blank"><i class="fas fa-envelope fa-1x"></i></a>
+    </div>
+
+    <div class="fixed-action-btn">
+      <a class="btn-floating btn-large red">
+        <i class="large material-icons">mode_edit</i>
+      </a>
+      <ul>
+        <li><a href="https://www.facebook.com/profile.php?id=100009796845572" target="_blank" class="btn-floating red w3-center"><i class="fab fa-facebook-f fa-2x"></i></a></li>
+        <li><a href="https://github.com/jhymy/jhymy.github.io" target="_blank" class="btn-floating yellow darken-1 w3-center"><i class="fab fa-git-alt fa-2x"></i></a></li>
+        <li><a href="#!" target="_blank" class="btn-floating green w3-center"><i class="fab fa-whatsapp fa-2x"></i></a></li>
+        <li><a href="https://accounts.google.com/ServiceLogin?service=mail&passive=true&rm=false&continue=https://mail.google.com/mail/u/0/&ss=1&scc=1&authuser=0&ltmpl=default&ltmplcache=2&emr=1&osid=1#" target="_blank" class="btn-floating blue w3-center"><i class="fas fa-envelope fa-2x"></i></a></li>
+      </ul>
+    </div>
+
+
+    <section class="sectio white w3-center contenido">
+        <div class="container">
+            <div class="row">
+                <div class="col xl12">
+                    <form>
+                        <h2>Contact Us</h2>
+                        <div class="row">
+                            <div class="col xl6 input-field">
+                                <input id="first_name" type="text" class="validate">
+                                <label for="first_name">First Name</label>
+                            </div>
+                            <div class="col xl6 input-field">
+                                <input id="last_name" type="text" class="validate">
+                                <label for="last_name">Last Name</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col xl6 input-field">
+                                <input id="email" type="email" class="validate">
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="col xl6 input-field">
+                                <input id="password" type="password" class="validate">
+                                <label for="password">Password</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                          <div class="input-field col xl12">
+                            <textarea id="textarea1" class="materialize-textarea" data-length="220"></textarea>
+                            <label for="textarea1">Textarea</label>
+                          </div>
+                        </div>
+                        <div class="row">
+                            <div class="col xl12">
+                                <a class="waves-effect waves-light orange btn"><i class="material-icons right">cloud</i>Enviar</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </section>
-
-    <footer>
-        <section>
-            <ul>
-                <li><a href="https://github.com/jhymy/jhymy.github.io" target="_blank"><i class="fab fa-github"></i></a></li>
-                <li><a href="https://www.facebook.com/profile.php?id=100009796845572" target="_blank"><i class="fab fa-facebook"></i></a></li>
-            </ul>
-        </section>
-        <section>
+    <footer class="page-footer orange">
+      <div class="container">
+        <div class="row">
+          <div class="col xl4 m4 s12">
+            <h5 class="white-text">About Me</h5>
+            <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+          </div>
+          <div class="col xl4 m4 s6">
+            <h5>Contact info</h5>
             <address>
-                    Autor: Jhymy Eduardo Portal Saucedo <br/>
-                    https://paletton.com/#uid=c002P0u5a0kllllbMAbgzryq7f8uU8X
-                    http://www.csszengarden.com/057/
-                    https://es.jimdo.com/2015/02/10/psicolog%C3%ADa-del-color-en-el-dise%C3%B1o-web-parte-1/
-					&copy; 2019 All rights reserved
-			</address>
-        </section>
+              Autor: Jhymy Eduardo Portal Saucedo
+              Address: Jr moquegua <br>
+              Phone: +51 984804071 <br>
+              Emal: jportals15@unc.edu.pe <br>
+            </address>
+          </div>
+          <div class="col xl4 m4 offset-l2 s6">
+            <h5 class="white-text">Navigation</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#!">home</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">About Us</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Privacy</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Contact</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">City</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+        © 2019 All rights reserved
+        <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+        </div>
+      </div>
     </footer>
-
+    <script>
+        M.AutoInit();
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.fixed-action-btn');
+            var instances = M.FloatingActionButton.init(elems, {
+              direction: 'left'
+            });
+        });
+     
+    </script>
 </body>
 
 </html>
